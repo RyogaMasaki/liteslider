@@ -6,17 +6,17 @@ How to use
 ----------
 liteSlider uses a target `<UL>` element with each `<LI>` child representing a frame. Simply instantiate a new instance of the liteSlider object with the ID of the `<UL>` element along with an object containing the settings for the slider:
 
-`var newslider = new liteSlider('ls-slider',
-  {
-    autostart:false,
-    nextDirection:'up'
-  });`
+    var newslider = new liteSlider('ls-slider',
+      {
+        autostart:false,
+        nextDirection:'up'
+      });
 
 The liteSlider object also has methods for manually moving to the next and previous frames, which can be bound to DOM events like mouse clicks:
 
-`document.getElementById('nextslide').addEventListener('click',function() {
-  newslider.nextSlide();
-},false);`
+    document.getElementById('nextslide').addEventListener('click',function() {
+      newslider.nextSlide();
+    },false);
 
 Legacy Internet Explorer support
 --------------------------------
