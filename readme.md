@@ -4,7 +4,7 @@ liteSlider is a simple, fast, lightweight HTML content slider with an emphasis o
 
 How to use
 ----------
-liteSlider uses a target <UL> element with each <LI> child representing a frame. Simply instantiate a new instance of the liteSlider object with the ID of the <UL> element along with an object containing the settings for the slider:
+liteSlider uses a target `<UL>` element with each `<LI>` child representing a frame. Simply instantiate a new instance of the liteSlider object with the ID of the `<UL>` element along with an object containing the settings for the slider:
 
 var newslider = new liteSlider('ls-slider',
   {
