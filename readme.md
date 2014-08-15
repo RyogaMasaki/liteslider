@@ -2,6 +2,8 @@ liteSlider
 ==========
 liteSlider is a simple, fast, lightweight HTML content slider with an emphasis on quick user response and fast animation. Slides an be timed to move automatically or advanced manually by the user, or both! They can transition in the four cardinal directions as well as cross-fade. liteSlider is written in pure JavaScript; no need for a heavy supporting framework.
 
+Examples can be found [here](http://sudden-desu.net/liteslider).
+
 How to use
 ----------
 liteSlider uses a target `<UL>` element with each `<LI>` child representing a frame. Simply instantiate a new instance of the liteSlider object with the ID of the `<UL>` element along with an object containing the settings for the slider:
