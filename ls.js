@@ -1,17 +1,9 @@
 /*
- _   _        _____ _       _
-| |_| |      / ____| |_    | |
-| (_) |_ ___| (___ | (_) __| | ___ _ __
-| | | __/ _ \____ \| | |/ _` |/ _ \ '__|
-| | | ||  __/____) | | | (_| |  __/ |
-|_|_|\__\___|_____/|_|_|\__,_|\___|_|
+liteSlider
+Damian Rogers (damian@sudden-desu.net)
 version 1.0 - Modern Browser Version
 This version lacks support for Internet Explorer 9 and below
-----------------------------------------------------------
-  version history
-    1.0 - First functional release
 */
-// A shim to cover all the browser prefixes
 window.reqAF=(function(){
 	return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame;
 })();
@@ -321,4 +313,3 @@ var liteSlider=function(element,settings){
 	
 	if(this.settings.autostart) this.start();
 };
-

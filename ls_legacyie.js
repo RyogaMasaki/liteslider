@@ -1,17 +1,11 @@
 /*
- _   _        _____ _       _
-| |_| |      / ____| |_    | |
-| (_) |_ ___| (___ | (_) __| | ___ _ __
-| | | __/ _ \____ \| | |/ _` |/ _ \ '__|
-| | | ||  __/____) | | | (_| |  __/ |
-|_|_|\__\___|_____/|_|_|\__,_|\___|_|
-				look ma, no jQuery!
-
+liteSlider
+Damian Rogers (damian@sudden-desu.net)
 version 1.0 with Legacy IE support
-  This version includes support for Internet Explorer 9 and below
+  This version includes support for Internet Explorer 8 & 9
 */
 window.now=(function() {
-  if(!performance.now) {
+  if(typeof(performance) == 'undefined') {
     if(!Date.now) {
       return function() {
         return new Date().getTime();
